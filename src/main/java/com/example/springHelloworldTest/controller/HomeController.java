@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HomeController {
-    @GetMapping("/welcom")
+    @GetMapping("/")
     public String welcome(){
         return "Hello Spring Demo";
     }
